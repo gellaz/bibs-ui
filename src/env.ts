@@ -16,7 +16,7 @@ export const env = createEnv({
 		VITE_APP_TITLE: z.string().min(1).optional(),
 		VITE_KEYCLOAK_URL: z.url().default("http://localhost:8085"),
 		VITE_KEYCLOAK_REALM: z.string().min(1).default("bibs"),
-		VITE_KEYCLOAK_CLIENT_ID: z.string().min(1).default("bibs-frontend"),
+		VITE_KEYCLOAK_CLIENT_ID: z.string().min(1).default("bibs-web"),
 	},
 
 	/**
